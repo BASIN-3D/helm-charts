@@ -14,6 +14,15 @@ The following BASIN-3D Charts are availabe
 + **django-basin3d:** deploys a basic [BASIN-3D Django](https://django-basin3d.readthedocs.org) app with public data sources.
   Use [docker-django-basin3d](BASIN-3D/docker-django-basin3d) to build the image needed for this chart. 
   
+  
+Add this chart repo to your helm
+
+     helm repo add basin-3d https://basin-3d.github.io/helm-charts/
+     
+List all the charts in the repo
+
+     helm search repo basin-3d
+  
 ## Deploying a chart
 Deploy a chart by packaging and signing it and then commiting it the source repository.
 

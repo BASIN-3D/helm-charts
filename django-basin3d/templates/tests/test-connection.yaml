@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "{{ include "django-basin3d.fullname" . }}-test-connection"
+  labels:
+    {{- include "django-basin3d.labels" . | nindent 4 }}
+  annotations:
+    "helm.sh/hook": test
+spec:
+  containers:
+    - name: wget
+      image: busybox
+      command: ['wget']
+      args: ['{{ include "django-basin3d.fullname" . }}:{{ .Values.service.port }}']
+  restartPolicy: Never

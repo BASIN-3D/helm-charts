@@ -1,0 +1,26 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 0.0.4-p3
+description: A Helm chart for Django BASIN-3D
+name: django-basin3d
+type: application
+version: 0.1.0
+
+...
+files:
+  django-basin3d-0.1.0.tgz: sha256:2f58b48dc772e61ba5091c73801f99cb4914bea0d2b36236ada4427b52cbff47
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJhYNKXCRCKnlyl0HeTXAAAXPEMACZeSmuOVko1LiGM0opKjoQ5
+eOY0AyQF6m7YOcYDeNDR6Segv90GXCLOX07N7qqXQ/lVTe5QbUvuReGnT8YHunWh
+qjrr2VCtq9c2F8Zpyl+dgFtUHnguc57LxCA5JQjzZ8OQM33IXy8UkjeEsCb+e646
+449LjivtDJu+i2X3VV+AfYkC8uVEohijjeQOvRwdlHfBGAQQYPftby5sH0wwjVIS
+nwtLRB5DM1SJxKvnDNZTEMqMyAeSR0dA1y6DeQu8IwrpNxN4E6DcfJTkvVHS5SCs
+CewpKYpMc4c6uU3hoBHV/gBqAGobHX1Qf8K2H10PjHJC7qdMAy0aUaB1ploOCODG
+56T0JB51Jv2iIZ3u8PPSG3HiVd6Swm2+IitJcBUm3ea4irQCo33pTyP79iUX6pXZ
+2bwmClSPvN/+w570TFq1CoTWefSryr0F+zpV2cummuxxApt6TSAow0VlDgq7ntbr
+uor9KNEN77alf3N4vDYtzPBhRwqxDhS89YcMizE4ng==
+=H1ch
+-----END PGP SIGNATURE-----
